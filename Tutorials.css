@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.contiainer{
+    background-image:
+    linear-gradient(to right,#01022de5 40%,#00000086),
+    url("ca-times.brightspotcdn.webp")
+    ;
+    background-position: center;
+    width:95%;
+    height:90%;
+}
+.contiainer:hover{
+    background-image:
+    linear-gradient(to right,#01022de5 40%, transparent),
+    url("ca-times.brightspotcdn.webp")
+    ;
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width:60%;
+    list-style:none;
+    display: flex;
+    justify-content:space-between;
+}
+ul a{
+    border-bottom: 4px solid transparent;
+}
+ul a:hover{
+    border-bottom: 4px solid white;
+    
+}
+.content{
+    color: white;
+    width:50%;
+    margin-top:5%;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 5% 0;
+}
+.content button{
+ border-radius: 20px;
+ padding: 2%;
+ border:none;
+ font-size: 20px;
+}
+.content button:hover{
+ background-color:transparent;
+ color: white;
+ border: 2px solid white;
+ cursor: pointer;
+}
